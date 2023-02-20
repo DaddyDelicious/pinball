@@ -1,8 +1,10 @@
+//import * as THREE from 'three';
+
 // simulation properties
 const n = 0.0001;
 const tf = 0.5;
 const k_spring = 75;
-const displacement = 0.07; // Contraction in meters
+var displacement = 0.07; // Contraction in meters
 const mass = 0.08; // kilogram
 const gravity = 9.81; // m/s^2
 const fc = 0.2; //   Coefficient of friction. metal on wood (0.2-0.6)
